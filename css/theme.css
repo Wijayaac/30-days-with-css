@@ -7,7 +7,31 @@
    Author:  Brad Hussey
    Website: codecollege.ca
    ====================================== */
+/* font local */
+@font-face {
+  font-family: "Nova Mono";
+  src: url("/fonts/novamono-regular-webfont.woff2") format("woff2"),
+    url("/fonts/novamono-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "Bubblegum Sans";
+  src: url("/fonts/bubblegumsans-regular-webfont.woff2") format("woff2"),
+    url("/fonts/bubblegumsans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("/fonts/robotocondensed-regular-webfont.woff2") format("woff2"),
+    url("/fonts/robotocondensed-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font local */
 body {
   font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
