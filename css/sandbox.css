@@ -1050,8 +1050,8 @@
   padding: 10px 20px;
   margin: 0;
 }
-,
-pricing-body ul li:nth-child(2n) {
+
+.pricing-body ul li:nth-child(2n) {
   background-color: #fff;
 }
 .pricing-body ul li:nth-child(2n + 1) {
