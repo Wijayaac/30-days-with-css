@@ -1246,3 +1246,31 @@ Here, the variables are within the .final-result selector, therefore, it's scope
 .final-result .final__box2 {
   background: var(--secondary-color);
 }
+
+/* day 12 sticky footer */
+/* =========================
+   STICKY FOOTER
+   ========================= */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.page-content {
+  min-height: 100%;
+
+  /* same measurement as footer */
+  margin-bottom: -120px;
+}
+
+.page-content::after {
+  content: "";
+  display: block;
+}
+
+footer,
+.page-content::after {
+  height: 120px;
+}
